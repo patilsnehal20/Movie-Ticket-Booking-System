@@ -25,24 +25,31 @@ With the rise of online ticketing, there’s a growing need for systems that:
 - User  Input : Scanner for console input
 
 **Tech Stack Implementation** :
+
 Programming Language
+
 Java: The core programming language used to develop the application, leveraging its object-oriented features for modular design and maintainability.
 
 Data Structures
+
 ArrayList:
 Used to store and manage collections of movies, theaters, snacks, and user selections dynamically.
+
 Arrays:
 Employed for managing seat availability and selection, providing a straightforward way to represent seat layouts.
 
 Exception Handling
+
 Custom Exceptions:
 Implemented to handle specific errors, such as invalid user input or insufficient seat availability, ensuring robust error management and user feedback.
 
 User Input
+
 Scanner Class:
 Utilized for capturing user input from the console, allowing for interactive engagement throughout the booking process.
 
 **Key Features and Implementation** :
+
 - **User Module**
 **User Authentication**:
 Input validation for name and mobile number.
@@ -89,6 +96,7 @@ Users are prompted to provide feedback on their booking experience.
 https://drive.google.com/drive/folders/10ybkbXpn7qo8_ZsW3sFKNPWxQDSopn31?usp=sharing
 
 **Code Flow Summary**
+
 User Initialization                             →     Input name and mobile number for authentication.
 Movie Selection                                 →     Browse available movies and select one for details.
 Date and Theater Selection                      →     Choose a screening date and theater.
