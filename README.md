@@ -26,11 +26,11 @@ With the rise of online ticketing, there’s a growing need for systems that:
 
 **Tech Stack Implementation** :
 
-Programming Language
+**Programming Language**
 
-Java: The core programming language used to develop the application, leveraging its object-oriented features for modular design and maintainability.
+Java : The core programming language used to develop the application, leveraging its object-oriented features for modular design and maintainability.
 
-Data Structures
+**Data Structures**
 
 ArrayList:
 Used to store and manage collections of movies, theaters, snacks, and user selections dynamically.
@@ -38,12 +38,12 @@ Used to store and manage collections of movies, theaters, snacks, and user selec
 Arrays:
 Employed for managing seat availability and selection, providing a straightforward way to represent seat layouts.
 
-Exception Handling
+**Exception Handling**
 
 Custom Exceptions:
 Implemented to handle specific errors, such as invalid user input or insufficient seat availability, ensuring robust error management and user feedback.
 
-User Input
+**User Input**
 
 Scanner Class:
 Utilized for capturing user input from the console, allowing for interactive engagement throughout the booking process.
@@ -51,44 +51,58 @@ Utilized for capturing user input from the console, allowing for interactive eng
 **Key Features and Implementation** :
 
 - **User Module**
+
 **User Authentication**:
 Input validation for name and mobile number.
+
 **Welcome Message**:
 Personalized greeting for users upon login.
+
 **Movie Listings**:
 Display of available movies with descriptions, genres, and cast information.
 
 - **Movie Selection**
+
 **Browse Movies**:
 Users can view a list of movies and select one for more details.
+
 **Movie Details**:
 Information about the selected movie, including duration, language, and cast.
 
 - **Date and Theater Selection**
+
 **Choose Date**:
 Users can select a date for the movie screening.
+
 **Theater Options**:
 Display of available theaters with location details.
 
 - **Seat Selection**
+
 **Interactive Seat Map**:
 Visual representation of available and booked seats.
+
 **Real-Time Availability**:
 Users can select their preferred seats based on availability.
 
 - **Snacks and Beverages**
+
 **Menu Display**:
 Option to view and select snacks and beverages during the booking process.
+
 **Pricing Information**:
 Clear display of prices for each snack and beverage item.
 
-- ** Payment Processing**
+- **Payment Processing**
+
 **Total Cost Calculation**:
 Automatic calculation of total cost including tickets and snacks.
+
 **Coupon Application**:
 Users can apply discount coupons for savings during checkout.
 
 - **Feedback Collection**
+
 **Post-Booking Feedback**:
 Users are prompted to provide feedback on their booking experience.
 
@@ -98,17 +112,27 @@ https://drive.google.com/drive/folders/10ybkbXpn7qo8_ZsW3sFKNPWxQDSopn31?usp=sha
 **Code Flow Summary**
 
 User Initialization                             →     Input name and mobile number for authentication.
+
 Movie Selection                                 →     Browse available movies and select one for details.
+
 Date and Theater Selection                      →     Choose a screening date and theater.
+
 Slot Selection                                  →     Select a time slot for the chosen movie.
+
 Seat Selection                                  →     View interactive seat map and select preferred seats.
+
 Snacks and Beverages                            →     Choose snacks and beverages to add to the order.
+
 Payment Processing                              →     Calculate total cost, apply coupons, and process payment.
+
 Ticket Generation                               →     Generate and display digital ticket with booking details.
+
 Feedback Collection                             →     Prompt user for feedback on their booking experience.
+
 End of Process                                  →     Conclude the session and allow for a new booking or exit.
 
 **Future Enhancements**
+
 - Database integration for persistent storage of user data and bookings.
 - Graphical User Interface (GUI) for a more interactive experience.
 - Online payment gateway integration for secure transactions.
